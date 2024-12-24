@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  div {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Container */
+  form {
+    display: grid;
+    gap: 16px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styles */
+  label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Input and Textarea Styles */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Footer Section */
+  .contact-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-footer .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-footer .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  div img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-form input[type="text"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea {
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    div {
+      padding: 15px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
